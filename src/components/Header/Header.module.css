@@ -1,0 +1,28 @@
+.container{
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  
+    padding: 2% 4%;
+
+}
+
+.rightlist>li{
+ list-style: none;
+ 
+    color: var(--logo-color-1, #B3B3B3);
+}
+.rightlist>li:hover{
+    cursor: pointer;
+    color: #F48A37;
+
+
+}
+.rightlist{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
