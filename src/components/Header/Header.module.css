@@ -4,6 +4,7 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 100px;
     padding: 2% 4%;
     z-index: 2;

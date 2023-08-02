@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Subscribe  from './components/Subscribe/Subscribe';
 import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -19,7 +20,9 @@ function App() {
       <About/>
       <Services/>
       <Subscribe/>
+      <Contact/>
       <Footer/> 
+ 
     
     </div>
   );
