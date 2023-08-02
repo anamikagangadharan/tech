@@ -1,6 +1,5 @@
 .container{
-    background: #121212;
-    height: 1700px;
+    background: var(--background);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +65,7 @@ flex-shrink: 0;
 }
 .boxright>:nth-child(1){
     font-size: 22px;
-    color: #F48A37;
+    color:var(--orange);
     text-align: left;
     
 }
