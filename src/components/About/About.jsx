@@ -7,7 +7,7 @@ import Value from "../../assets/value.svg"
 
 const About = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='about'>
       <div className={css.div1}>
         <span> WHO WE ARE</span>
       </div>

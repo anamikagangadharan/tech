@@ -8,7 +8,7 @@ import S5 from "../../assets/s5.svg"
 
 const Services = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="services">
 
      <div className={css.div1}>
       <div className={css.line}></div>
