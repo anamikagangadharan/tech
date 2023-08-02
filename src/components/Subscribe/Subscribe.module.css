@@ -1,0 +1,55 @@
+.container{
+    background-image: url(../../assets/subscribebg.png);
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 65.10%, rgba(0, 0, 0, 0.00) 100%), url(../../assets/subscribebg.png),  #0E0E0E; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    height: 383px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+} 
+.set{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+ 
+    justify-content: center;
+    text-align: left;
+  
+}
+.set>:nth-child(1){
+    color: var(--white, #FFF);
+font-size: 30px;
+letter-spacing: -0.6px;
+}
+.set>:nth-child(2){
+    color: #FFF;
+font-size: 18px;
+line-height: 29px; /* 161.111% */
+letter-spacing: 0.36px;
+width: 70%;
+}
+
+.inpsubscribe{
+    border-radius: 20px;
+border: 1px solid #FFF;
+background: #D9D9D9;
+width: 200px;
+height: 32px;
+}
+.subscribe{
+    border-radius: 20px;
+background: var(--light-orange, #F48A37);
+width: 127.5px;
+height: 32px;
+flex-shrink: 0;
+border: none;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.36px;
+text-transform: uppercase;
+position: absolute;
+left: 320px;
+bottom: 126px;
+}
