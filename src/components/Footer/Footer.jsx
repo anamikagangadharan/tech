@@ -4,13 +4,13 @@ import Logo1 from "../../assets/invicious-tech-logo.svg"
 
 const Footer=()=>{
     return(
-        <div className={css.container}>
+        <div className={css.container} id='contact'>
 
             <div className={css.div1}>
             {/* left section */}
                 <div className={css.div1left}>
-                    <img src={Logo1} alt="" />
-                    <span>"Transforming Technology, Empowering Success."</span>
+                    <img className={css.logo1} src={Logo1} alt="" />
+                    <span className={css.text1}>"Transforming Technology, Empowering Success."</span>
                     <div className={css.icons}>
                     <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="003-twitter">
@@ -39,7 +39,7 @@ const Footer=()=>{
                 {/* /right section */}
                 <div className={css.div1right}>
                     <div className={css.right1}>
-                    <span>Quick links</span>
+                    <span className={css.headspan}>Quick links</span>
                     <ul className={css.flist}>
                         <li>Home</li>
                         <li>About us</li>
@@ -49,20 +49,22 @@ const Footer=()=>{
                     </ul>
                     </div>
 
+                    <div className={css.line}></div>
+
                     <div className={css.right2}>
                         <div className={css.right2left}>
-                            <span>Phone</span>
-                            <span>+91 89765 23450</span>
+                            <span className={css.headspan}>Phone</span>
+                            <span className={css.subspan}>+91 89765 23450</span>
                         </div>
                         <div className={css.right2right}>
-                            <span>Address</span>
-                            <span>124-H, 3rd Floor, Thendral Complex, DB Road, RS Puram,  Coimbatore - 641002</span>
+                            <span className={css.headspan}>Address</span>
+                            <span className={css.subspan}>124-H, 3rd Floor, Thendral Complex, DB Road, RS Puram,  Coimbatore - 641002</span>
                         </div>
                     </div>
 
                     <div className={css.right3}> 
-                    <span>Email</span>
-                    <span>contact@invicioustech.co.in</span>
+                    <span className={css.headspan}>Email</span>
+                    <span className={css.subspan}>contact@invicioustech.co.in</span>
                     
                     </div>
                   
@@ -72,6 +74,14 @@ const Footer=()=>{
 
 
 
+            </div>
+
+
+            {/* <div className={css.line2}></div> */}
+
+
+            <div className={css.copyright}>
+                <span>Copyright © 2023 invicious Tech Consltancy | All Rights Reserved. </span>
             </div>
 
         </div>
