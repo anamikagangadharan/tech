@@ -20,7 +20,7 @@ function App() {
       <About/>
       <Services/>
       <Subscribe/>
-      <Contact/>
+      {/* <Contact/> */}
       <Footer/> 
  
     

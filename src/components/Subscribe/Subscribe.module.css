@@ -53,3 +53,9 @@ position: absolute;
 left: 320px;
 bottom: 126px;
 }
+
+@media screen and (max-width:768px) {
+    .subscribe{
+        left: 100px;
+    }
+}

@@ -43,3 +43,15 @@ border: 1px solid var(--light-orange, #F48A37);
 background: var(--orage-liner, linear-gradient(180deg, #F48A37 51.04%, #ED7638 100%));
 color: #FFF;
 }
+
+@media screen and (max-width:768px){
+
+    .container{
+        width: 100%;
+        gap: 1.4rem;
+    }
+    .div1>:nth-child(1){
+        font-size: 32px;
+    }
+
+}

@@ -119,3 +119,33 @@ text-align: left;
   fill: var(--orange);
   cursor: pointer;
 }
+@media screen and (max-width:768px){
+  .container{
+    width: 100%;
+  }
+  .div1{
+    display: flex;
+    flex-direction: column;
+  }
+  .mobcontainer{
+    display: flex;
+    flex-direction: column;
+    color: #808080;
+  }
+  .mob{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mimg{
+    height: 25px;
+  }
+
+  .moblist{
+    width: 100%;
+    background-color: black;
+    padding: 2% 2%;
+    display: flex;
+    font-size: 4px;
+  }
+}

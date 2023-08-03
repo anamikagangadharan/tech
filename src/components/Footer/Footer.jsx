@@ -1,8 +1,13 @@
 import React from 'react'
 import css from "./Footer.module.css"
 import Logo1 from "../../assets/invicious-tech-logo.svg"
+import Map from "../../assets/location0.svg"
+import Message from "../../assets/message0.svg"
+import Call from "../../assets/phone0.svg"
 
 const Footer=()=>{
+    const mobile = window.innerWidth <= 768 ? true : false;
+
     return(
         <div className={css.container} id='contact'>
 
@@ -35,9 +40,49 @@ const Footer=()=>{
                 </div>
 
 
+                {mobile? <div className={css.mobcontainer}>
+                    <div className={css.mob1}>
+                        <span>Contact us</span>
+                    </div>
 
-                {/* /right section */}
-                <div className={css.div1right}>
+
+
+                    <div className={css.mob}>
+                        <img className={css.mimg} src={Map} alt="" />
+                        <span>124-H, 3rd Floor, Thendral Complex, DB Road, RS Puram,  Coimbatore - 641002</span>
+
+                    </div>
+                    <div className={css.mob}>
+                        <img className={css.mimg} src={Message} alt="" />
+                        <span>contact@batcave.co.in</span>
+                    </div>
+                    <div className={css.mob}>
+                    <img className={css.mimg} src={Call} alt="" />
+                        <span>+91 89765 23450</span>
+                    </div>
+
+                    <div className={css.moblist}>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Terms & Conditions</li>
+                        <li></li>
+                    </div>
+
+
+
+                </div> : 
+
+             
+              
+                
+
+              
+
+
+
+               
+               ( <div className={css.div1right}>
                     <div className={css.right1}>
                     <span className={css.headspan}>Quick links</span>
                     <ul className={css.flist}>
@@ -68,7 +113,7 @@ const Footer=()=>{
                     
                     </div>
                   
-                </div>
+                </div> )}
 
                 
 
