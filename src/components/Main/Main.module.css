@@ -48,10 +48,26 @@ color: #FFF;
 
     .container{
         width: 100%;
-        gap: 1.4rem;
+        gap: 0rem;
+        background-image: url(../../assets/mobmainbg.png);
+      height: 328px;
+      background-size: cover;
+    }
+    .div1{
+        margin-top: 2rem;
+
     }
     .div1>:nth-child(1){
         font-size: 32px;
+     
+    }
+    .div2>:nth-child(1){
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .contactbutton{
+        margin-top: 0.8rem;
+        padding: 8px 20px;
     }
 
 }

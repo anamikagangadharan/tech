@@ -88,8 +88,55 @@ flex-shrink: 0;
     .container{
         width: 100%;
     }
+    .div1>:nth-child(1){
+        font-size: 20px;
+    }
+    .div2{
+        width: 90%;
+    }
+    .div2>:nth-child(1){
+        font-size: 14px;
+        color: #808080;
+
+    }
+
     .div3{
         display: flex;
         flex-direction: column;
     }
+    .div3left{
+        width: 100%;
+    }
+    .div3right{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+        background: none;
+    }
+    .boxleft>img{
+        width: 35px;
+        height: 35px;
+    }
+    .boxright>:nth-child(1){
+        font-size: 16px;
+    }
+    .boxright>:nth-child(2){
+        font-size: 14px;
+    }
+
+    .div4{
+        width: 100%;
+    }
+    .div4>:nth-child(1){
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
 }

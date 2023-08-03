@@ -126,6 +126,8 @@ text-align: left;
   .div1{
     display: flex;
     flex-direction: column;
+    padding: 0;
+    align-items: center;
   }
   .mobcontainer{
     display: flex;
@@ -146,6 +148,17 @@ text-align: left;
     background-color: black;
     padding: 2% 2%;
     display: flex;
-    font-size: 4px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    height: 50px;
+    gap: 0.5rem;
+  }
+  .moblist>li{
+    list-style: none;
+  }
+  .molist>li:hover{
+    cursor: pointer;
+    color: var(--orange);
   }
 }
