@@ -87,6 +87,7 @@ flex-shrink: 0;
 @media screen and (max-width:768px){
     .container{
         width: 100%;
+        gap: 1rem;
     }
     .div1>:nth-child(1){
         font-size: 20px;
@@ -109,6 +110,7 @@ flex-shrink: 0;
     }
     .div3right{
         width: 100%;
+        margin-top: 1rem;
     }
     .box{
         width: 100%;

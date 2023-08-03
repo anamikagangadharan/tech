@@ -28,7 +28,7 @@ for your success in the digital world.</span>
         <div className={css.set}>
             <div className={css.line}>
             <label htmlFor="">Phone number *</label>
-            <input className={css.contactinp}  required type="number" name="" id=""  placeholder='Ener Your Number'/>
+            <input className={css.contactinp}  required type="number" name="" id=""  placeholder='Enter Your Number'/>
             </div>
             <div className={css.line}>
             <label htmlFor="">Company *</label>
@@ -37,7 +37,7 @@ for your success in the digital world.</span>
         </div>
         <div className={css.set}>
             <div className={css.line}>
-            <label for="cars">Choose a car:</label>
+            <label for="cars">Subject *</label>
 
             <select className={css.selectinput} name="cars" id="cars">
   <option className={css.opt} value="volvo">How can we help ?</option>
@@ -61,7 +61,7 @@ for your success in the digital world.</span>
            
           <input className={css.messageinp} type="text"  placeholder='Enter some message here'/>
         </div>
-        <button>Submit</button>
+        <button className={css.subbtn}>Submit</button>
       </form>
 
          
