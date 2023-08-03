@@ -86,7 +86,7 @@ letter-spacing: -0.32px;
 
 font-size: 14px;
 
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 letter-spacing: 0.28px;
 width: 70%;
@@ -110,9 +110,10 @@ width: 70%;
     .subscribe{
        
         border-radius: 10px;
-        height: 32px;
+        height: 33px;
         width: 80px;
         font-size: 12px;
+        /* margin-top: -1px; */
        
     }
 }

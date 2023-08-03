@@ -1,5 +1,6 @@
 import React from 'react'
 import css from "./Main.module.css"
+import { Link } from 'react-scroll'
 
 const Main = () => {
   return (
@@ -15,7 +16,7 @@ const Main = () => {
 
 
       <div className={css.div3}>
-        <button className={css.contactbutton}>CONTACT US</button>
+      <Link to="contact" spy={true} smooth={true}>   <button className={css.contactbutton}>CONTACT US</button>  </Link> 
       </div>
     </div>
   )

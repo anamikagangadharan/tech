@@ -4,6 +4,7 @@ import Logo1 from "../../assets/invicious-tech-logo.svg"
 import Map from "../../assets/location0.svg"
 import Message from "../../assets/message0.svg"
 import Call from "../../assets/phone0.svg"
+import { Link } from 'react-scroll'
 
 const Footer=()=>{
     const mobile = window.innerWidth <= 768 ? true : false;
@@ -62,9 +63,9 @@ const Footer=()=>{
                     </div>
 
                     <div className={css.moblist}>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
+                    <li><Link to="home" spy={true} smooth={true}>Home</Link></li>
+                <li><Link to="about" spy={true} smooth={true}>About</Link></li>
+                <li><Link to="services"  spy={true} smooth={true}>Services</Link></li>
                         <li>Terms & Conditions</li>
                         <li></li>
                     </div>
