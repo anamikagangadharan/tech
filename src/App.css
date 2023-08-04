@@ -1,12 +1,14 @@
 :root{
   --orange:#F48A37; 
   --background:#121212;
+  /* --swiper-theme-color: #a8a823 !important; */
 }
 
 
 
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -48,6 +50,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 } 
 
 .swiper-pagination-bullet{

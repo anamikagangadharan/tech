@@ -14,7 +14,7 @@ const About = () => {
 
 
       <div className={css.div2}>
-        <span>"At Invicious Tech Consultancy, we pride ourselves on three key advantages that set us
+        <span>"At Invicious Tech Consultancy, <br /> we pride ourselves on three key advantages that set us
              apart from the rest:</span>
       </div>
 

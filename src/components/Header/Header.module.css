@@ -24,8 +24,8 @@
 
 .rightlist>li{
  list-style: none;
- 
     color: var(--logo-color-1, #B3B3B3);
+    font-size: 18px;
 }
 .rightlist>li:hover{
     cursor: pointer;

@@ -5,6 +5,7 @@ import S2 from "../../assets/s2.svg"
 import S3 from "../../assets/s3.svg"
 import S4 from "../../assets/s4.svg"
 import S5 from "../../assets/s5.svg"
+import S5new from "../../assets/s5new.svg"
 import { Link } from 'react-scroll'
 import { Link  as Link2} from 'react-scroll'
 import { Link  as Link3} from 'react-scroll'
@@ -28,7 +29,7 @@ const Services = () => {
             <img className={css.serviceimg} src={S1} alt="" />
         </div>
         <div className={css.contentsection}>
-            <span className={css.heading}>IT consultancy</span>
+            <span className={css.heading}>IT Consultancy</span>
             <span className={css.description}>Empowering businesses with expert IT advice and strategic solutions tailored to your objectives</span>
             <Link to="contact" spy={true} smooth={true}>   <button className={css.contactbutton}>CONTACT US</button>  </Link> 
         </div>
@@ -69,7 +70,7 @@ const Services = () => {
 
      <div className={css.type1}>
         <div className={css.imagesection}>
-            <img className={css.serviceimg} src={S5} alt="" />
+            <img className={css.serviceimg} src={S5new} alt="" />
         </div>
         <div className={css.contentsection}>
             <span className={css.heading}>Digital Branding Services</span>

@@ -16,7 +16,7 @@ font-weight: 700;
 line-height: normal;
 }
 .div2{
-    width: 60%;
+    width: 80%;
 }
 .div2>:nth-child(1){
     color: #CCC;
@@ -62,6 +62,7 @@ flex-shrink: 0;
 .boxright{
     display: flex;
     flex-direction: column;
+    gap: 0.3rem;
 }
 .boxright>:nth-child(1){
     font-size: 22px;
