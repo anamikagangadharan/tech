@@ -7,10 +7,20 @@ const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false); 
 
+  const [color,setColor]=useState(false)
+
+  const changeColor=()=>{
+    if(window.scrollY>=100){
+      setColor(true)
+    } else{
+      setColor(false)
+    }
+  }
+ window.addEventListener('scroll',changeColor)
 
  
   return (
-    <div className={css.container}>
+    <div className={color? css.bgblack: css.container}>
         <div className={css.left}>
             <img src={Logo1} alt="" />
          

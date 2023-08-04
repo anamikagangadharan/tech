@@ -21,7 +21,7 @@ background-clip: text;
 }
 
 .div2{
-    width: 80%;
+    width: 60%;
 }
 .div2>:nth-child(1){
     color: var(--white, #FFF);
@@ -65,6 +65,9 @@ color: #FFF;
     .div1>:nth-child(1){
         font-size: 32px;
      
+    }
+    .div2{
+        width: 80%;
     }
     .div2>:nth-child(1){
         font-size: 12px;

@@ -2,6 +2,7 @@ import React from 'react'
 import css from "./Main.module.css"
 import { Link } from 'react-scroll'
 
+
 const Main = () => {
   return (
     <div className={css.container} id='home'>
