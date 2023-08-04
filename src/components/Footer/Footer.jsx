@@ -87,9 +87,9 @@ const Footer=()=>{
                     <div className={css.right1}>
                     <span className={css.headspan}>Quick links</span>
                     <ul className={css.flist}>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Services</li>
+                    <li><Link to="home" spy={true} smooth={true}>Home</Link></li>
+                <li><Link to="about" spy={true} smooth={true}>About</Link></li>
+                <li><Link to="services"  spy={true} smooth={true}>Services</Link></li>
                         <li>Contact</li>
                         <li>Terms & Conditions</li>
                     </ul>

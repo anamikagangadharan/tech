@@ -70,7 +70,7 @@ const Services = () => {
 
      <div className={css.type1}>
         <div className={css.imagesection}>
-            <img className={css.serviceimg} src={S5new} alt="" />
+            <img className={css.serviceimglast}  src={S5new} alt="" />
         </div>
         <div className={css.contentsection}>
             <span className={css.heading}>Digital Branding Services</span>

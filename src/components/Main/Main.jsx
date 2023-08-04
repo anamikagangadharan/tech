@@ -3,6 +3,7 @@ import css from "./Main.module.css"
 import { Link } from 'react-scroll'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import Logo2 from "../../assets/banner2logo.svg"
 
 import "swiper/css";
 import "swiper/css/pagination"
@@ -57,12 +58,13 @@ const Main = () => {
     <SwiperSlide> 
       <div className={css.container2}>
       <div className={css.div1}>
-        <span>INVICIOUS</span>
+       <img className={css.logo22} src={Logo2} alt="" />
       </div>
 
 
-      <div className={css.div2}>
-        <span>"Welcome to Invicious Tech Consultancy, your gateway to seamless technology solutions and expert IT guidance. Unlock the power of innovation and achieve business excellence with our dedicated team of professionals."</span>
+      <div className={css.div22}>
+       <span>Invicious Custom Software Solution Development
+</span>
       </div>
 
 
