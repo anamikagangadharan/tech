@@ -8,6 +8,16 @@
     justify-content:center;
     gap: 2.8rem;
 }
+.container2{
+    background-image: url(../../assets/mainbg2.jpg);
+    /* margin-top: 8rem; */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 2.8rem;
+}
 .div1>:nth-child(1){
     text-align: center;
 font-family: Poppins;
@@ -57,6 +67,14 @@ color: #FFF;
         background-image: url(../../assets/mobmainbg.png);
       height: 328px;
       background-size: cover;
+    }
+    .container2{
+        width: 100%;
+        gap: 0rem;
+        background-image: url(../../assets/mainbg2mob.png);
+      height: 328px;
+      background-size: cover;
+
     }
     .div1{
         margin-top: 2rem;
