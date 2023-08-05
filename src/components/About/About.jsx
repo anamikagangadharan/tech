@@ -14,7 +14,7 @@ const About = () => {
 
 
       <div className={css.div2}>
-        <span>At Invicious Tech Consultancy, <br /> we pride ourselves on three key advantages that set us
+        <span>At Invicious Consultancy Services, <br /> We pride ourselves on three key advantages that set us
              apart from the rest:</span>
       </div>
 
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
             </div>
             <div className={css.div4}>
-        <span>Discover a consultancy experience that combines speed, creativity, and unbeatable value, and take your business to new heights with Invicious Tech Consultancy.</span>
+        <span>Discover a consultancy experience that combines speed, creativity, and unbeatable value, and take your business to new heights with Invicious Consultancy Services.</span>
       </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import css from "./Header.module.css"
-import Logo1 from "../../assets/invicious-tech-logo.svg"
+import Logo1 from "../../assets/consultancy-logo.svg"
 import Bars from "../../assets/bars.svg"
 import Close from "../../assets/close.png"
 import { Link } from 'react-scroll'

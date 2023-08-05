@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Footer.module.css"
-import Logo1 from "../../assets/invicious-tech-logo.svg"
+import Logo1 from "../../assets/consultancy-logo.svg"
 import Map from "../../assets/location0.svg"
 import Message from "../../assets/message0.svg"
 import Call from "../../assets/phone0.svg"
@@ -55,7 +55,7 @@ const Footer=()=>{
                     </div>
                     <div className={css.mob}>
                         <img className={css.mimg} src={Message} alt="" />
-                        <span>contact@batcave.co.in</span>
+                        <span>connect@invicious.in</span>
                     </div>
                     <div className={css.mob}>
                     <img className={css.mimg} src={Call} alt="" />
@@ -110,7 +110,7 @@ const Footer=()=>{
 
                     <div className={css.right3}> 
                     <span className={css.headspan}>Email</span>
-                    <span className={css.subspan}>contact@invicioustech.co.in</span>
+                    <span className={css.subspan}>connect@invicious.in</span>
                     
                     </div>
                   
@@ -127,7 +127,7 @@ const Footer=()=>{
 
 
             <div className={css.copyright}>
-                <span>Copyright © 2023 invicious Tech Consltancy | All Rights Reserved. </span>
+                <span>Copyright © 2023 Invicious Consltancy Services | All Rights Reserved. </span>
             </div>
 
         </div>

@@ -170,7 +170,8 @@ letter-spacing: 1.08px;
   
   
   .mimg{
-    height: 25px;
+    height: 20px;
+    width: 20px;
   }
   .mob>:nth-child(2){
     font-size: 14px;

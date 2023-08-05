@@ -10,7 +10,7 @@ const Contact = () => {
       </div>
 
       <div className={css.div2}>
-        <span>At Invicious Tech Consultancy, we're your technology partner, offering innovative solutions 
+        <span>At Invicious Consultancy Services, we're your technology partner, offering innovative solutions 
 for your success in the digital world.</span>
       </div>
 
