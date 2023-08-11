@@ -1,10 +1,15 @@
-import React,{useRef} from 'react'
+import React,{useRef, useState} from 'react'
 import css from "./Contact.module.css"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [firstName, setFirstName] = useState('')
+  const [mail, setMail] = useState('')
+  const[number,setNumber]= useState('')
+  const [company, setCompany] = useState('')
+  const [country, setCountry] = useState('')
   const notify = () => toast.success("Sent Successfully");
   const form = useRef();
 
@@ -43,21 +48,21 @@ for your success in the digital world.</span>
         <div className={css.set}>
             <div className={css.line}>
             <label htmlFor="">Full name *</label>
-            <input className={css.contactinp}  required type="text" name="to_name" id=""  placeholder='Enter Your Name'/>
+            <input  onChange={(e) => setFirstName(e.target.value)} className={css.contactinp}  required type="text" name="to_name" id=""  placeholder='Enter Your Name'/>
             </div>
             <div className={css.line}>
             <label htmlFor="">Your Email *</label>
-            <input className={css.contactinp}  required  type="email" name="to_email" id="" placeholder='Enter Your Email' />
+            <input onChange={(e) => setMail(e.target.value)} className={css.contactinp}  required  type="email" name="to_email" id="" placeholder='Enter Your Email' />
             </div>
         </div>
         <div className={css.set}>
             <div className={css.line}>
             <label htmlFor="">Phone number *</label>
-            <input className={css.contactinp}  required type="number" name="number" id=""  placeholder='Enter Your Number'/>
+            <input  onChange={(e) => setNumber(e.target.value)} className={css.contactinp}  required type="number" name="number" id=""  placeholder='Enter Your Number'/>
             </div>
             <div className={css.line}>
-            <label htmlFor="">Company *</label>
-            <input className={css.contactinp}  required type="text" name="company" id=""  placeholder='Enter Your Company name'/>
+            <label  htmlFor="">Company *</label>
+            <input onChange={(e) => setCompany(e.target.value)}  className={css.contactinp}  required type="text" name="company" id=""  placeholder='Enter Your Company name'/>
             </div>
         </div>
         <div className={css.set}>
@@ -77,7 +82,7 @@ for your success in the digital world.</span>
             </div>
             <div className={css.line}>
             <label htmlFor="">Country *</label>
-            <input className={css.contactinp}  required type="text" name="country" id=""  placeholder='Enter Your Country'/>
+            <input  onChange={(e) => setCountry(e.target.value)} className={css.contactinp}  required type="text" name="country" id=""  placeholder='Enter Your Country'/>
             </div>
         </div>
 
@@ -87,7 +92,7 @@ for your success in the digital world.</span>
           <input className={css.messageinp} type="text" name='message' placeholder='Enter some message here'/>
         </div>
         <button onClick={notify} className={css.subbtn}>Submit</button>
-        <ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} />
+     {firstName.length>1 && mail.length>1 && company.length>1 && number.length>5 && country.length>1 ?<ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} /> : ""}   
       </form>
 
          
