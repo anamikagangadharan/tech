@@ -12,6 +12,8 @@
 }
 .container2{
     background-image: url(../../assets/mainbg2.jpg);
+    background-size: cover;
+    background-position: center ;
     /* margin-top: 8rem; */
     height: 700px;
     display: flex;
@@ -92,6 +94,7 @@ color: #FFF;
         background-image: url(../../assets/mainbg2mob.png);
       height: 328px;
       background-size: cover;
+      background-position: center;
 
     }
     .div1{
