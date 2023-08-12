@@ -1,5 +1,7 @@
 .container{
     background-image: url(../../assets/mainbg.jpg);
+    background-size: cover;
+    background-position: center;
     /* margin-top: 8rem; */
     height: 700px;
     display: flex;
@@ -79,6 +81,8 @@ color: #FFF;
         width: 100%;
         gap: 0rem;
         background-image: url(../../assets/mobmainbg.png);
+        background-size: cover;
+        background-position: center;
       height: 328px;
       background-size: cover;
     }
