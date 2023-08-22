@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div className={color? css.bgblack: css.container}>
         <div className={css.left}>
-            <img src={Logo1} alt="" />
+            <img className={css.logo} src={Logo1} alt="" />
          
         </div>
         {/* <div className={css.right}> */}

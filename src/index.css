@@ -12,7 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-#myBtn {
+/* #myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -23,7 +23,7 @@ code {
   outline: none;
   color: white;
   cursor: pointer;
-  /* padding: 12px; */
+ 
   border-radius: 50%;
  background-color: #fff;
  width: 42px;
@@ -37,6 +37,6 @@ code {
     width: 30px;
     height: 30px;
     right: 8px;
-    /* padding: 2%; */
+   
   }
-}
+} */

@@ -66,9 +66,50 @@
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 100px !important;
 }
+
+.ins{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  /* padding: 12px; */
+  border-radius: 50%;
+ background-color: #fff;
+ width: 42px;
+ height: 41px;
+
+}
+.ins2{
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  /* padding: 12px; */
+  border-radius: 50%;
+ background-color: #fff;
+ width: 42px;
+ height: 41px;
+}
 @media screen and (max-width:768px){
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 8px !important;
+  }
+  .ins2{
+    width: 30px;
+    height: 30px;
+    right: 8px;
   }
 
 }

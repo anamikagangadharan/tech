@@ -33,7 +33,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className={css.container}>
+    <div className={css.container} id='contact'>
       
       <div className={css.div1}>
         <span>Contact Us</span>
@@ -70,7 +70,7 @@ for your success in the digital world.</span>
             <label for="cars">Subject *</label>
 
             <select className={css.selectinput} name="subject" id="cars">
-  <option className={css.opt} value="Nil">How can we help ?</option>
+  <option className={css.opt} value="Nil">How Can We Help ?</option>
   <option className={css.opt} value="Consultancy service">IT Consultancy Service</option>
   <option className={css.opt} value="Web Design & Development">Web Design & Development</option>
   <option className={css.opt} value="Mobile App Development">Mobile App Development</option>

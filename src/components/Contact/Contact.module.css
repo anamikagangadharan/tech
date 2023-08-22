@@ -94,6 +94,11 @@
 
 
 }
+.contactinp::placeholder{
+    font-family: Nunito;
+    font-size: 14px;
+    text-transform: capitalize;
+}
 
 .selectinput {
     border-radius: 10px;
@@ -127,16 +132,31 @@
     
 } */
 
+.messageinp::placeholder{
+  
+   position: absolute;
+   top: 15%;
+   left: 2%;
+   font-family: Nunito;
+   font-size: 14px;
+   text-transform: capitalize;
+   
+}
+
 .opt {
     background-color: rgb(18, 18, 17);
 
     width: 100px;
     color: #FFF;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-transform: capitalize;
+}
+.selectinput[type=value]{
+    color: red;
 }
 
 .subbtn {
@@ -219,6 +239,7 @@
 
     .lastset{
         font-size: 14px;
+        padding: 0 6%;
     }
 
     .subbtn{

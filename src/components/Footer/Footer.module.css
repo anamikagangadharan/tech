@@ -5,7 +5,7 @@
 }
 .div1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border-top: 1px solid rgba(103, 103, 103, 0.30);
   border-bottom: 1px solid rgba(103, 103, 103, 0.30);
   padding: 2% 3%;
@@ -26,7 +26,7 @@ text-align: left;
 }
 .icons{
     display: flex;
-  gap: 0.8rem;
+  gap: 1.4rem;
 }
 .div1right {
   display: flex;
@@ -47,7 +47,7 @@ text-align: left;
 }
 .flist {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 .line {
   height: 1px;
@@ -89,6 +89,11 @@ text-align: left;
   align-items: flex-start;
   gap: 0.2rem;
 }
+.right3>a{
+  text-decoration: none;
+  color: #808080;
+  font-size: 16px;
+}
 .headspan {
   color: var(--white, #fff);
   font-size: 16px;
@@ -115,9 +120,18 @@ text-align: left;
  
 }
 
-.icons > svg path:hover {
+/* .icons > a> svg path:hover {
   fill: var(--orange);
   cursor: pointer;
+} */
+.icons>a:hover svg path{
+  fill: var(--orange);
+  cursor: pointer;
+}
+
+.icons>a>svg{
+
+  height: 23px;
 }
 @media screen and (max-width:768px){
   .container{
@@ -178,6 +192,11 @@ letter-spacing: 1.08px;
     color: #808080;
     width: 80%;
   }
+  .mob>a{
+    /* color: red; */
+   
+    text-decoration: none;
+  }
 
   .moblist{
     width: 100%;
@@ -185,7 +204,7 @@ letter-spacing: 1.08px;
     padding: 2% 2%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 13px;
     height: 50px;
     gap: 0.8rem;

@@ -2,7 +2,7 @@ import React from 'react'
 import css from "./Main.module.css"
 import { Link } from 'react-scroll'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination ,Autoplay} from "swiper/modules";
 import Logo2 from "../../assets/banner2logo.svg"
 
 import "swiper/css";
@@ -22,9 +22,12 @@ const Main = () => {
     //     slidesPerView: 1,
     //   },
     // }}
-    modules={[Pagination]}
+    modules={[Pagination,Autoplay]}
       //  pagination={true}
        pagination={{ clickable: true }}
+    
+       autoplay={{ delay: 3000, disableOnInteraction: false,waitForTransition: true }}
+       speed={1300}
        loopFillGroupWithBlank={true}
        slidesPerView={1}
        spaceBetween={0}
