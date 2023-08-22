@@ -4,6 +4,8 @@
     background-position: center;
     /* margin-top: 8rem; */
     height: 700px;
+ 
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,11 +13,14 @@
     gap: 2.8rem;
 }
 .container2{
-    background-image: url(../../assets/mainbg2.jpg);
+    background-image: url(../../assets/mainbg2new.jpg);
     background-size: cover;
     background-position: center ;
     /* margin-top: 8rem; */
     height: 700px;
+  
+    /* min-width: 1443px; */
+  
     display: flex;
     flex-direction: column;
     align-items: center;
